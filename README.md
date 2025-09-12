@@ -8,6 +8,8 @@ The pipeline follows the modern ELT (Extract, Load, Transform) paradigm using a 
 <img width="1687" height="662" alt="Project Structure" src="https://github.com/user-attachments/assets/f306111b-3ea4-4b8d-9117-0956df85bf55" />
 
 Technologies Used
+
+
 <img width="693" height="203" alt="image" src="https://github.com/user-attachments/assets/de4a654b-4590-4060-b404-28a2269530bb" />
 
 How It Works
