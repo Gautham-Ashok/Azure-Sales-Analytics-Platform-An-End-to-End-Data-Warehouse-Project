@@ -41,9 +41,17 @@ The final fact_sales table contains surrogate keys and numeric measures, optimiz
 <img width="1356" height="697" alt="fact table" src="https://github.com/user-attachments/assets/5f2d9ee6-e874-43b8-b4a3-4c0ef172218c" />
 
 3. Data Serving & Visualization
-The final, aggregated Gold layer data is then ready for analysis. Using Databricks SQL, we can perform analytics and create visualizations, such as analyzing the total units sold per year.
+The final, aggregated Gold layer data is now fully prepared for analytics and reporting. The star schema model allows for high-performance querying and is served through two primary methods:
 
+Ad-hoc Analysis with Databricks SQL: For technical users and data analysts, the Gold layer tables can be queried directly within the Databricks environment using standard SQL to perform complex, ad-hoc analysis.
 <img width="1876" height="775" alt="databricks sales visualization" src="https://github.com/user-attachments/assets/08dcb7e6-b548-4430-9b7c-4d6d8d50f922" />
+
+Business Intelligence with Power BI: For business stakeholders, the data was connected to Microsoft Power BI to build a professional, interactive dashboard. This dashboard provides a user-friendly interface to explore key metrics, filter by different dimensions, and derive actionable insights from the data warehouse.
+
+<img width="1321" height="742" alt="powerbi complete vis" src="https://github.com/user-attachments/assets/a00da689-0c32-421e-9a85-45d6a5c2c707" />
+
+
+
 
 Key Learnings & Concepts Implemented
 Incremental Data Loading: Designing efficient pipelines that only process new data.
